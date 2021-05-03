@@ -62,7 +62,7 @@ python /edx/app/edxapp/edx-platform/manage.py lms makemigrations --settings=prod
 ```
 and finally run migrations
 ```
-~/edx-platform$ python /edx/app/edxapp/edx-platform/manage.py lms migrate --migrate --settings=production
+python /edx/app/edxapp/edx-platform/manage.py lms migrate --settings=production
 ```
 
 ### For Others (Not Tried)
